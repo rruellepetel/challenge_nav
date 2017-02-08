@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+}
+p {
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    background-color: lightgrey;
+}
+li {
+    background-color: grey;
+    list-style: none;
+    border: 1px solid lightgrey;
+    padding: 1em;
+}
+#first {
+}
+#second {
+    justify-content: flex-end;
+}
+#third {
+    justify-content: center;
+}
+#fourth {
+    justify-content: space-between;
+}
+#fifth {
+    justify-content: space-around;
+}
+#sixth li {
+    flex-grow: 1;
+    text-align: center;
+}
